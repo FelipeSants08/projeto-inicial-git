@@ -1,0 +1,56 @@
+
+
+/*Este é um comentário de linha!*/
+/*
+    Este é um comentário de Bloco!
+!*/
+/*exemplos de seletores*/
+    h1 {
+        color: #ff0000;
+        text-align: center;
+    
+    }
+
+    #cabecalho{
+        background-image: url("../img/img-01-banner-1280x640.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+ /*seletores de classe*/
+ .link {
+    /*font-size: 24em;*/
+    border: 2px solid #ff0000;
+    display: inline-block;
+    margin: 0 2%;
+    background-color: rgba(255, 0, 0, 0.212);
+    padding: 5px 5px;
+    width: 15%;
+    transition: all 0.4s ease-out;
+
+    &:hover {
+        background-color: #ff000080;
+    }
+
+    /*Nesting elements*/
+    a {
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+
+        img{
+            display: inline-block;
+            width: 25%;
+        }
+
+    }
+ }
+ /*Seletores de ID*/
+ #menu ul{
+    list-style-type: none;
+    text-align: center;
+
+ }
