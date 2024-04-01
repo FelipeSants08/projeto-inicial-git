@@ -6,13 +6,13 @@
 !*/
 /*exemplos de seletores*/
     h1 {
-        color: #ff0000;
+        font-family: 'Times New Roman', Times, serif;
+        color: #000000;
         text-align: center;
-    
     }
-
+    
     #cabecalho{
-        background-image: url("../img/img-01-banner-1280x640.png");
+        background-color: #0404dbc5;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -54,3 +54,6 @@
     text-align: center;
 
  }
+ 
+ 
+ 
