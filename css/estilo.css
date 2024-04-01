@@ -54,6 +54,9 @@
 
     }
  }
+ #rodape {
+    border-top: 2px solid #ff0000;
+ }
  #conteudo {
     line-height: 1.5;
  }
@@ -77,4 +80,5 @@ nav {
     background-color: #0084ff;
     color: #ffffff;
  }
+ 
  
