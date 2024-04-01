@@ -21,6 +21,9 @@
     h2 {
         font-family: 'Times New Roman', Times, serif;
     }
+    .container {
+        padding: 20px;
+    }
 
 
  /*seletores de classe*/
