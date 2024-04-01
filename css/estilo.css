@@ -54,6 +54,9 @@
 
     }
  }
+ #conteudo {
+    line-height: 1.5;
+ }
  /*Seletores de ID*/
  #menu ul{
     list-style-type: none;
