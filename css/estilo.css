@@ -55,8 +55,10 @@
  #menu ul{
     list-style-type: none;
     text-align: center;
-
  }
+nav {
+    font-weight: bold;
+}
  
  
  
